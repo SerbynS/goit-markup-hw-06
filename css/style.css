@@ -192,11 +192,12 @@ a {
   line-height: 1.17;
 }
 
-.page-footer .footer-logo span {
+.page-footer .footer-logo .footer-span {
   color: #2e2f42;
 }
 
 .page-footer p {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
