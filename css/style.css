@@ -18,6 +18,11 @@ ol {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
 .page-header .header-nav > a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -33,7 +38,7 @@ ol {
   color: #2e2f42;
 }
 
-.page-header .header-nav a {
+.page-header .header-nav .nav-list a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -64,4 +69,37 @@ ol {
 
 .page-header .header-contact-info a:focus {
   color: #404bbf;
+}
+
+/* MAIN */
+
+/* Section Hero */
+
+.page-content .hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-section .order-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-section .order-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-section .order-button:focus {
+  background-color: #404bbf;
 }
