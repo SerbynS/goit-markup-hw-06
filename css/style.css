@@ -17,3 +17,16 @@ ul,
 ol {
   list-style-type: none;
 }
+
+.page-header .header-nav > a {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.page-header .header-logo > span {
+  color: #2e2f42;
+}
