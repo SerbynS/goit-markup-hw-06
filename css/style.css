@@ -25,17 +25,36 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  letter-spacing: 1.17;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
 }
 
 .page-header .header-logo > span {
   color: #2e2f42;
 }
 
+.page-header .header-nav a {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.page-header .header-nav a:hover {
+  color: #404bbf;
+}
+
+.page-header .header-nav a:focus {
+  color: #404bbf;
+}
+
 .page-header .header-contact-info {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.page-header .header-contact-info a {
   color: #434455;
 }
 
