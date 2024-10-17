@@ -103,3 +103,50 @@ a {
 .hero-section .order-button:focus {
   background-color: #404bbf;
 }
+
+/* Section Strategy */
+
+.strategy-section .strategy-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.strategy-section .strategy-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Section Team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-section .team-item {
+  background-color: #ffffff;
+}
+
+.team-section .team-item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section .team-item p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
