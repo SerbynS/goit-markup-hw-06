@@ -51,6 +51,8 @@ img {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   line-height: 1.17;
+
+  margin-right: 76px;
 }
 
 .page-header .header-logo > span {
@@ -88,6 +90,39 @@ img {
 
 .page-header .header-contact-info a:focus {
   color: #404bbf;
+}
+/* header hw3 */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container-header {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-header .header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header .nav-item .nav-link {
+  padding: 24px 0;
+}
+
+.page-header .header-contact-info .contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 /* MAIN */
