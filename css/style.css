@@ -94,11 +94,12 @@ img {
 /* header hw3 */
 .page-header {
 	border-bottom: 1px solid #e7e9fc;
-	padding: 24px 0;
+	/* padding: 24px 0; */
 }
 
 .page-header .container-header {
 	display: flex;
+	align-items: center;
 }
 
 .container {
@@ -119,7 +120,8 @@ img {
 }
 
 .page-header .nav-item .nav-link {
-	/* padding: 24px 0; */
+	padding: 24px 0;
+	display: block;
 }
 
 .page-header .header-contact-info .contact-list {
