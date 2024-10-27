@@ -487,8 +487,10 @@ img {
 	margin-right: 120px;
 }
 
-.page-footer .social-container p {
+.page-footer .social-container .social-description {
 	margin-bottom: 16px;
+	font-weight: 500;
+	color: #ffffff;
 }
 
 .footer-soc-list {
