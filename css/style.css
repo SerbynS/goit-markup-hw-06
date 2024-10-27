@@ -191,6 +191,21 @@ img {
 .hero-section .order-button:focus {
 	background-color: #404bbf;
 }
+
+/* HW 4 */
+
+.hero-section {
+	max-width: 1440px;
+	background-image: linear-gradient(
+			rgba(46, 47, 66, 0.7),
+			rgba(46, 47, 66, 0.7)
+		),
+		url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* Section Hero hw3 */
 
 /* Section Strategy */
