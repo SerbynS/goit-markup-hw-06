@@ -94,7 +94,8 @@ img {
 /* header hw3 */
 .page-header {
 	border-bottom: 1px solid #e7e9fc;
-	/* padding: 24px 0; */
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header .container-header {
@@ -127,6 +128,22 @@ img {
 .page-header .header-contact-info .contact-list {
 	display: flex;
 	gap: 40px;
+}
+
+/* HW4 */
+
+.page-header .header-nav .nav-item:first-child {
+	position: relative;
+}
+.page-header .header-nav .nav-item:first-child::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	bottom: -1px;
+	height: 4px;
+	background-color: rgba(64, 75, 191, 1);
+	border-radius: 2px;
+	left: 0;
 }
 
 /* MAIN */
