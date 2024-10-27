@@ -132,10 +132,10 @@ img {
 
 /* HW4 */
 
-.page-header .header-nav .nav-item:first-child {
+.page-header .header-nav .nav-item .active {
 	position: relative;
 }
-.page-header .header-nav .nav-item:first-child::after {
+.page-header .header-nav .nav-item .active::after {
 	content: "";
 	position: absolute;
 	width: 100%;
