@@ -204,6 +204,8 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 /* Section Hero hw3 */
@@ -250,6 +252,19 @@ img {
 
 .strategy-section {
 	padding: 120px 0;
+}
+
+/* HW 4 */
+
+.strategy-section .strategy-item-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #8e8f99;
+	background-color: #f4f4fd;
+	border-radius: 4px;
+	height: 112px;
+	margin-bottom: 8px;
 }
 
 /* Section Team */
